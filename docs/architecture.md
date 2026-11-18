@@ -11,7 +11,7 @@
 
 ### Repo layout
 ```
-arrowcalc/
+spinelab/
 ├── packages/core/
 │   ├── src/
 │   │   ├── units/          # unit system, AMO/ASTM spine conventions

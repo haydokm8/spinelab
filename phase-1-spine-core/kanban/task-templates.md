@@ -1,8 +1,8 @@
 # Kanban Task Templates — Phase 1
 
 ## Board Configuration
-- **Board:** `arrow-calc`
-- **Workspace:** `dir:/home/sage/projects/arrowcalc`
+- **Board:** `spinelab`
+- **Workspace:** `dir:/home/sage/projects/spinelab`
 - **Profiles:** `coder` (T1–T3), `frontend` (T4), `qa` (QA gate). TypeScript/Astro project — no Flutter/Dart skills involved.
 - **Skill targeting:** pass relevant skill names in card bodies (see subagent-skill-targeting); core math tasks: `clean-code`, `coder-testing`; UI: `frontend-testing`, `accessibility`-adjacent a11y rules inline.
 
@@ -15,19 +15,19 @@ QA (qa) depends on T1–T5
 ## Card Templates
 
 ### T1: Monorepo scaffold (pnpm + Astro + vitest + CI)
-Title: arrowcalc Phase 1 T1: monorepo scaffold
+Title: spinelab Phase 1 T1: monorepo scaffold
 Assignee: coder
 Priority: 1
 Parents: —
 Body:
-  Scaffold pnpm workspace at /home/sage/projects/arrowcalc per runsheet 01-monorepo-scaffold.md.
+  Scaffold pnpm workspace at /home/sage/projects/spinelab per runsheet 01-monorepo-scaffold.md.
   packages/core (TS strict + vitest) + apps/web (Astro TS strict) + eslint/prettier + GitHub CI.
   Fixture provenance README in packages/core/test/fixtures/.
   Acceptance: pnpm -r test green, lint clean, astro build works, CI green.
   CONSTRAINTS: DO NOT deploy anywhere. Structure only.
 
 ### T2: Units & spine conventions
-Title: arrowcalc Phase 1 T2: units + AMO/ASTM convention module
+Title: spinelab Phase 1 T2: units + AMO/ASTM convention module
 Assignee: coder
 Priority: 1
 Parents: T1
@@ -39,7 +39,7 @@ Body:
   CONSTRAINTS: DO NOT deploy.
 
 ### T3: Spine models + coefficient registry
-Title: arrowcalc Phase 1 T3: static/dynamic spine model + cited coefficient registry
+Title: spinelab Phase 1 T3: static/dynamic spine model + cited coefficient registry
 Assignee: coder
 Priority: 1
 Parents: T2
@@ -53,7 +53,7 @@ Body:
   NOTE: ends with a hard 🔵 H+S coefficient-review gate before T4 dispatch.
 
 ### T4: Calculator UI + working panel
-Title: arrowcalc Phase 1 T4: calculator UI + transparency panel
+Title: spinelab Phase 1 T4: calculator UI + transparency panel
 Assignee: frontend
 Priority: 1
 Parents: T3
@@ -65,7 +65,7 @@ Body:
   CONSTRAINTS: DO NOT deploy.
 
 ### T5: Firebase deploy + SEO fundamentals
-Title: arrowcalc Phase 1 T5: deploy + SEO
+Title: spinelab Phase 1 T5: deploy + SEO
 Assignee: frontend (implementation) — Sage supervises; domain purchase is Hayden's
 Priority: 2
 Parents: T4
@@ -76,7 +76,7 @@ Body:
   NOTE: the ONLY phase-1 card that deploys.
 
 ### QA: Phase 1 quality gate
-Title: arrowcalc Phase 1 QA: 5-gate quality pipeline
+Title: spinelab Phase 1 QA: 5-gate quality pipeline
 Assignee: qa
 Priority: 1
 Parents: T1,T2,T3,T4,T5
@@ -96,5 +96,5 @@ Body:
 ## Operational Notes
 - Create cards via the Python subprocess pattern (app-build-planning skill) — bodies contain backticks/ampersands; never raw shell.
 - If a batch script crashes mid-graph: seed created IDs and continue, never archive-and-recreate (duplicate-card trap).
-- Worker-created cards go to scratch workspaces — create these cards orchestrator-side with explicit `--workspace dir:/home/sage/projects/arrowcalc`.
+- Worker-created cards go to scratch workspaces — create these cards orchestrator-side with explicit `--workspace dir:/home/sage/projects/spinelab`.
 - Terminal env quirk after delegate_task: strip HERMES_DELEGATED_CHILD_CONTEXT=1 before `hermes kanban` CLI calls.

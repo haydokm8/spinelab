@@ -58,13 +58,13 @@ T1 Scaffold ──► T2 Units & Conventions ──► T3 Spine Models + Coeffic
 | **Total** | **~25h** | mostly sequential — small team reality |
 
 ## Pre-Phase Checklist (must be complete before Wave 1 dispatch)
-- [ ] 🟢 H: product name decided (D1) — can start codenamed `arrowcalc`
-- [ ] 🟢 H: domain purchased (D2) — recommended: new .com for international SEO
-- [ ] 🟢 H: repo visibility decided (D3) — recommended: public core
-- [ ] 🟢 H: hosting confirmed (D4) — recommended: Firebase Hosting
+- [ ] 🟢 H: product name decided (D1) — SpineLab (decided 2026-11-18 — repo `spinelab`)
+- [ ] 🟢 H: domain purchased (D2) — **spinelab.tools** recommended (only clean TLD left after 2026-11-18 check; grab soon — .app/.dev were scooped in 2026)
+- [x] 🟢 H: repo visibility decided (D3) — PUBLIC (decided 2026-11-18)
+- [x] 🟢 H: hosting confirmed (D4) — Firebase Hosting (decided 2026-11-18)
 - [ ] 🟣 S: Stu Miller spreadsheet + instructions archived locally as test-oracle source (heilakka.com/dynamic.htm)
 - [ ] 🟣 S: profile skill pre-flight (coder/frontend/qa have needed skills; note: this is a TS/Astro project — no Flutter/Dart skills involved)
-- [ ] 🟣 S: kanban board `arrow-calc` created, cards seeded from kanban/task-templates.md
+- [ ] 🟣 S: kanban board `spinelab` created, cards seeded from kanban/task-templates.md
 
 ## Notes / Pitfalls
 - The **±2# match convention** and the **working panel** are proven UX from 3Rivers — replicate the *interaction shape*, never their code or data.

@@ -1,6 +1,6 @@
 # Arrow Spine Calculator & Build Tool — Master Overview
 
-> **Working codename:** `arrowcalc` (name/domain decision pending — see Decisions Register)
+> **Name:** **SpineLab** (decided 2026-11-18) · **Repo:** `haydokm8/spinelab` · **Domain:** pending (see Decisions Register)
 > **Kickoff:** 2026-11-18 · **Origin:** 3Rivers dynamic spine calculator delisted from search engines
 > **Research:** /mnt/Obsidian/Projects/Arrow Calculator — 3Rivers Replacement.md
 
@@ -46,7 +46,7 @@ A math-grounded, fully-transparent arrow spine + build calculator for traditiona
 
 ## Layout
 ```
-arrowcalc/
+spinelab/
 ├── README.md                     ← this file
 ├── docs/
 │   ├── product-brief.md          ← market, competition, monetisation, decisions register
@@ -64,4 +64,4 @@ arrowcalc/
 1. Decisions Register resolved (name, domain, repo visibility) — 🟢 H
 2. Pre-phase-1 checklist complete (see phase-1 README)
 3. Stale-doc sweep + profile skill pre-flight (see kanban-orchestrator / app-build-planning)
-4. Create kanban board `arrow-calc`, seed Wave 1 from kanban/task-templates.md — 🟣 S
+4. Create kanban board `spinelab`, seed Wave 1 from kanban/task-templates.md — 🟣 S

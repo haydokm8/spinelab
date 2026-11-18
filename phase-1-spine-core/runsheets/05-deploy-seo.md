@@ -7,7 +7,7 @@ Put the site on the public internet with the SEO foundations a traffic-attractin
 
 ## Steps
 1. 🟢 H purchases domain (D2 decision) — recommended new .com
-2. Create dedicated Firebase project (e.g. `arrowcalc-<id>` — separate project per Hayden's rule), Firebase Hosting
+2. Create dedicated Firebase project (e.g. `spinelab-<id>` — separate project per Hayden's rule), Firebase Hosting
 3. Deploy `astro build` output; staging + production channels; custom domain + SSL wiring
 4. SEO: unique title/meta per page, OpenGraph, sitemap.xml, robots.txt, canonical URLs, clean URL structure (`/calculator`, `/guides/...`)
 5. Publish docs pages (about the math / sources) linked from the footer — transparency is the trust + link-building play
