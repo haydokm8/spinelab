@@ -1,0 +1,16 @@
+# dependencies
+node_modules/
+
+# build output
+dist/
+.astro/
+
+# test
+coverage/
+
+# env & editors
+.env
+.env.*
+.DS_Store
+.idea/
+.vscode/

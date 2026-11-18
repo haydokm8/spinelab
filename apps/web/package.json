@@ -1,0 +1,22 @@
+{
+  "name": "@spinelab/web",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "lint": "eslint .",
+    "typecheck": "astro check",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@spinelab/core": "workspace:*",
+    "astro": "^5.16.5"
+  },
+  "devDependencies": {
+    "@astrojs/check": "^0.9.6",
+    "typescript": "^5.9.3"
+  }
+}

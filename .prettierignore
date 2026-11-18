@@ -1,0 +1,10 @@
+node_modules/
+dist/
+.astro/
+coverage/
+pnpm-lock.yaml
+
+# planning docs are author-curated; prettier applies to workspace code only
+phase-*/
+docs/
+README.md
